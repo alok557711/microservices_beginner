@@ -1,0 +1,11 @@
+D:\Alok\My Study\Github Projects\Microservices_beginner\Microservices_beginner\bin\Debug\netcoreapp2.0\Microservices_1.deps.json
+D:\Alok\My Study\Github Projects\Microservices_beginner\Microservices_beginner\bin\Debug\netcoreapp2.0\Microservices_1.runtimeconfig.json
+D:\Alok\My Study\Github Projects\Microservices_beginner\Microservices_beginner\bin\Debug\netcoreapp2.0\Microservices_1.runtimeconfig.dev.json
+D:\Alok\My Study\Github Projects\Microservices_beginner\Microservices_beginner\bin\Debug\netcoreapp2.0\Microservices_1.dll
+D:\Alok\My Study\Github Projects\Microservices_beginner\Microservices_beginner\obj\Debug\netcoreapp2.0\Microservices_1.csprojAssemblyReference.cache
+D:\Alok\My Study\Github Projects\Microservices_beginner\Microservices_beginner\obj\Debug\netcoreapp2.0\Microservices_1.csproj.CoreCompileInputs.cache
+D:\Alok\My Study\Github Projects\Microservices_beginner\Microservices_beginner\obj\Debug\netcoreapp2.0\Microservices_1.AssemblyInfoInputs.cache
+D:\Alok\My Study\Github Projects\Microservices_beginner\Microservices_beginner\obj\Debug\netcoreapp2.0\Microservices_1.AssemblyInfo.cs
+D:\Alok\My Study\Github Projects\Microservices_beginner\Microservices_beginner\bin\Debug\netcoreapp2.0\Microservices_1.pdb
+D:\Alok\My Study\Github Projects\Microservices_beginner\Microservices_beginner\obj\Debug\netcoreapp2.0\Microservices_1.dll
+D:\Alok\My Study\Github Projects\Microservices_beginner\Microservices_beginner\obj\Debug\netcoreapp2.0\Microservices_1.pdb

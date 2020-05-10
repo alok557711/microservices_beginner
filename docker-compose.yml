@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  microservices_beginner:
+    image: ${DOCKER_REGISTRY}microservicesbeginner
+    build:
+      context: .
+      dockerfile: Microservices_beginner\Dockerfile
