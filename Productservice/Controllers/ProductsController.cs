@@ -10,7 +10,7 @@ using Productservice_2.Models;
 namespace Productservice_2.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Products")]
+    [Route("api/v1/Products")]
     public class ProductsController : Controller
     {
         private readonly Productservice_2Context _context;

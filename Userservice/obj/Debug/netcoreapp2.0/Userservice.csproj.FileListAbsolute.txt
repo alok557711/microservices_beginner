@@ -14,9 +14,9 @@ D:\Alok\My Study\Github Projects\Microservices_beginner\Userservice\bin\Debug\ne
 D:\Alok\My Study\Github Projects\Microservices_beginner\Userservice\bin\Debug\netcoreapp2.0\Userservice.runtimeconfig.dev.json
 D:\Alok\My Study\Github Projects\Microservices_beginner\Userservice\bin\Debug\netcoreapp2.0\Userservice.dll
 D:\Alok\My Study\Github Projects\Microservices_beginner\Userservice\bin\Debug\netcoreapp2.0\Userservice.pdb
-D:\Alok\My Study\Github Projects\Microservices_beginner\Userservice\obj\Debug\netcoreapp2.0\Userservice.csprojAssemblyReference.cache
 D:\Alok\My Study\Github Projects\Microservices_beginner\Userservice\obj\Debug\netcoreapp2.0\Userservice.csproj.CoreCompileInputs.cache
 D:\Alok\My Study\Github Projects\Microservices_beginner\Userservice\obj\Debug\netcoreapp2.0\Userservice.AssemblyInfoInputs.cache
 D:\Alok\My Study\Github Projects\Microservices_beginner\Userservice\obj\Debug\netcoreapp2.0\Userservice.AssemblyInfo.cs
 D:\Alok\My Study\Github Projects\Microservices_beginner\Userservice\obj\Debug\netcoreapp2.0\Userservice.dll
 D:\Alok\My Study\Github Projects\Microservices_beginner\Userservice\obj\Debug\netcoreapp2.0\Userservice.pdb
+D:\Alok\My Study\Github Projects\Microservices_beginner\Userservice\obj\Debug\netcoreapp2.0\Userservice.csprojAssemblyReference.cache

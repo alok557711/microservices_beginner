@@ -1,0 +1,14 @@
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\bin\Debug\netcoreapp2.0\APIgateway.deps.json
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\bin\Debug\netcoreapp2.0\APIgateway.runtimeconfig.json
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\bin\Debug\netcoreapp2.0\APIgateway.runtimeconfig.dev.json
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\bin\Debug\netcoreapp2.0\APIgateway.dll
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\obj\Debug\netcoreapp2.0\APIgateway.csproj.CoreCompileInputs.cache
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\obj\Debug\netcoreapp2.0\APIgateway.AssemblyInfoInputs.cache
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\obj\Debug\netcoreapp2.0\APIgateway.AssemblyInfo.cs
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\bin\Debug\netcoreapp2.0\APIgateway.pdb
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\obj\Debug\netcoreapp2.0\APIgateway.RazorAssemblyInfo.cache
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\obj\Debug\netcoreapp2.0\APIgateway.RazorAssemblyInfo.cs
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\obj\Debug\netcoreapp2.0\APIgateway.RazorTargetAssemblyInfo.cache
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\obj\Debug\netcoreapp2.0\APIgateway.dll
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\obj\Debug\netcoreapp2.0\APIgateway.pdb
+D:\Alok\My Study\Github Projects\Microservices_beginner\APIgateway\obj\Debug\netcoreapp2.0\APIgateway.csprojAssemblyReference.cache

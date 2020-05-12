@@ -19,7 +19,7 @@ namespace Cartservice
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
+                .UseStartup<Startup>().UseUrls("http://localhost:8002")
                 .Build();
     }
 }

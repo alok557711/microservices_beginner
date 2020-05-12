@@ -10,7 +10,7 @@ using Microservices_1.Models;
 namespace Microservices_1.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Users")]
+    [Route("api/v1/Users")]
     public class UsersController : Controller
     {
         private readonly Microservices_1Context _context;

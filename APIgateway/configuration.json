@@ -1,0 +1,64 @@
+﻿{
+    "ReRoutes": [
+        //Catalog API
+        {
+            "DownstreamPathTemplate": "/api/v1/Carts",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": "8002"
+                }
+            ],
+            "UpstreamPathTemplate": "/Carts",
+            "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+            "RateLimitOptions": {
+                "ClientWhitelist": [],
+                "EnableRateLimiting": true,
+                "Period": "1s",
+                "PeriodTimespan": 1,
+                "Limit": 1
+            }
+        },
+        //Products API
+        {
+            "DownstreamPathTemplate": "/api/v1/Products",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": "8001"
+                }
+            ],
+            "UpstreamPathTemplate": "/Products",
+            "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+            "RateLimitOptions": {
+                "ClientWhitelist": [],
+                "EnableRateLimiting": true,
+                "Period": "1s",
+                "PeriodTimespan": 1,
+                "Limit": 1
+            }
+        },
+        //Users API
+        {
+            "DownstreamPathTemplate": "/api/v1/Users",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": "8003"
+                }
+            ],
+            "UpstreamPathTemplate": "/Users",
+            "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+            "RateLimitOptions": {
+                "ClientWhitelist": [],
+                "EnableRateLimiting": true,
+                "Period": "1s",
+                "PeriodTimespan": 1,
+                "Limit": 1
+            }
+        }
+    ]
+}

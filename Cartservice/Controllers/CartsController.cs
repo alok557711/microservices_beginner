@@ -10,7 +10,7 @@ using Cartservice.Models;
 namespace Cartservice.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Carts")]
+    [Route("api/v1/Carts")]
     public class CartsController : Controller
     {
         private readonly CartserviceContext _context;

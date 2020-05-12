@@ -14,9 +14,9 @@ D:\Alok\My Study\Github Projects\Microservices_beginner\Productservice\bin\Debug
 D:\Alok\My Study\Github Projects\Microservices_beginner\Productservice\bin\Debug\netcoreapp2.0\Productservice.runtimeconfig.dev.json
 D:\Alok\My Study\Github Projects\Microservices_beginner\Productservice\bin\Debug\netcoreapp2.0\Productservice.dll
 D:\Alok\My Study\Github Projects\Microservices_beginner\Productservice\bin\Debug\netcoreapp2.0\Productservice.pdb
-D:\Alok\My Study\Github Projects\Microservices_beginner\Productservice\obj\Debug\netcoreapp2.0\Productservice.csprojAssemblyReference.cache
 D:\Alok\My Study\Github Projects\Microservices_beginner\Productservice\obj\Debug\netcoreapp2.0\Productservice.csproj.CoreCompileInputs.cache
 D:\Alok\My Study\Github Projects\Microservices_beginner\Productservice\obj\Debug\netcoreapp2.0\Productservice.AssemblyInfoInputs.cache
 D:\Alok\My Study\Github Projects\Microservices_beginner\Productservice\obj\Debug\netcoreapp2.0\Productservice.AssemblyInfo.cs
 D:\Alok\My Study\Github Projects\Microservices_beginner\Productservice\obj\Debug\netcoreapp2.0\Productservice.dll
 D:\Alok\My Study\Github Projects\Microservices_beginner\Productservice\obj\Debug\netcoreapp2.0\Productservice.pdb
+D:\Alok\My Study\Github Projects\Microservices_beginner\Productservice\obj\Debug\netcoreapp2.0\Productservice.csprojAssemblyReference.cache

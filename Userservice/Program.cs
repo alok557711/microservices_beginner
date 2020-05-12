@@ -19,7 +19,7 @@ namespace Microservices_beginner
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
+                .UseStartup<Startup>().UseUrls("http://localhost:8003")
                 .Build();
     }
 }
