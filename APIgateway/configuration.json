@@ -29,16 +29,23 @@
                     "Host": "localhost",
                     "Port": "8001"
                 }
+                //{
+                //    "Host": "localhost",
+                //    "Port": "8005"
+                //}
             ],
             "UpstreamPathTemplate": "/Products",
             "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
-            "RateLimitOptions": {
-                "ClientWhitelist": [],
-                "EnableRateLimiting": true,
-                "Period": "1s",
-                "PeriodTimespan": 1,
-                "Limit": 1
+            "LoadBalancerOptions": {
+                "Type": "LeastConnection"
             }
+            //"RateLimitOptions": {
+            //    "ClientWhitelist": [],
+            //    "EnableRateLimiting": true,
+            //    "Period": "1s",
+            //    "PeriodTimespan": 1,
+            //    "Limit": 1
+            //}
         },
         //Users API
         {

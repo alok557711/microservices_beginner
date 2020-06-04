@@ -11,6 +11,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using Productservice_2.Models;
 using Swashbuckle.AspNetCore.Swagger;
+using Steeltoe.Discovery.Client;
 
 namespace Microservices_2
 {
@@ -26,6 +27,11 @@ namespace Microservices_2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDiscoveryClient(Configuration);
+            //services.AddStackExchangeRedisCache(op =>
+            //{
+            //    op.Configuration = "localhost:6379";
+            //});
             services.AddMvc();
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new Info
@@ -47,7 +53,7 @@ namespace Microservices_2
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseDiscoveryClient();
             app.UseMvc();
             app.UseSwagger();
             app.UseSwaggerUI(c =>

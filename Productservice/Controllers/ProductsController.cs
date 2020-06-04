@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Productservice_2.Models;
+using RestEase ;
+using Steeltoe.Common.Discovery;
 
 namespace Productservice_2.Controllers
 {
@@ -15,9 +19,15 @@ namespace Productservice_2.Controllers
     {
         private readonly Productservice_2Context _context;
 
-        public ProductsController(Productservice_2Context context)
+        public ProductsController(Productservice_2Context context,IDiscoveryClient discoveryclient,IConfiguration configuration)
         {
             _context = context;
+            var handler = new DiscoveryHttpClientHandler(discoveryclient);
+            var httpclient = new HttpClient(handler, false)
+            {
+                BaseAddress=new Uri(configuration.GetValue<string>("userurl"))
+            };
+            RestClient.For<HttpClient>(httpclient);
         }
 
         // GET: api/Products
@@ -27,8 +37,7 @@ namespace Productservice_2.Controllers
             return _context.Product;
         }
 
-        // GET: api/Products/5
-        [HttpGet("{id}")]
+        [HttpGet("{customername}")]
         public async Task<IActionResult> GetProduct([FromRoute] int id)
         {
             if (!ModelState.IsValid)
@@ -85,15 +94,28 @@ namespace Productservice_2.Controllers
         [HttpPost]
         public async Task<IActionResult> PostProduct([FromBody] Product product)
         {
-            if (!ModelState.IsValid)
+
+            try
             {
-                return BadRequest(ModelState);
+                Productservice_2.Controllers.RabbitMQClient c = new Productservice_2.Controllers.RabbitMQClient();
+                c.sendDetail(product);
+                c.close();
             }
+            catch(Exception ex)
+            {
+                return BadRequest();
+            }
+            return Ok(product);
 
-            _context.Product.Add(product);
-            await _context.SaveChangesAsync();
+            //if (!ModelState.IsValid)
+            //{
+            //    return BadRequest(ModelState);
+            //}
 
-            return CreatedAtAction("GetProduct", new { id = product.Id }, product);
+            //_context.Product.Add(product);
+            //await _context.SaveChangesAsync();
+
+            //return CreatedAtAction("GetProduct", new { id = product.Id }, product);
         }
 
         // DELETE: api/Products/5

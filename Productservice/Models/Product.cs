@@ -14,5 +14,9 @@ namespace Productservice_2.Models
         public string Category { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
+        public string ToString()
+        {
+            return $"Purchase Order {Name},{Category},{Description},{Price}";
+        }
     }
 }

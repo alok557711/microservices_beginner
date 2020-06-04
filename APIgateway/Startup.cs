@@ -23,6 +23,10 @@ namespace APIgateway
         public IConfiguration Configuration { get; }
         public void ConfigureServices(IServiceCollection services)
         {
+
+            //services.AddControllers();
+            services.AddCors();
+            services.AddHostedService<ProductService>();
             services.AddOcelot(Configuration);
         }
 
